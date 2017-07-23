@@ -107,7 +107,7 @@
 
 /* Define to 1 if you have the fallocate function and it compiles and links
    without error */
-#define HAVE_FALLOCATE 1
+/*#define HAVE_FALLOCATE 1*/
 
 /* Define to 1 if you have the `fchmod' function. */
 #define HAVE_FCHMOD 1
@@ -599,6 +599,7 @@
 /* Define to 1 if `major', `minor', and `makedev' are declared in
    <sysmacros.h>. */
 /* #undef MAJOR_IN_SYSMACROS */
+#define MAJOR_IN_SYSMACROS 1
 
 /* Define to 1 if makedev() takes 3 args */
 /* #undef MAKEDEV_TAKES_3_ARGS */
