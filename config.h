@@ -751,6 +751,7 @@
 
 /* Number of bits in a file offset, on hosts where this is settable. */
 /* #undef _FILE_OFFSET_BITS */
+#define _FILE_OFFSET_BITS 64
 
 /* Define _GNU_SOURCE so that we get all necessary prototypes */
 #define _GNU_SOURCE 1
